@@ -25,7 +25,6 @@ def fix_balance_leave(doc):
 			if not is_lwp(doc.leave_type):
 				doc.leave_balance = get_leave_balance_on(doc.employee, doc.leave_type, doc.from_date, doc.to_date,
 					consider_all_leaves_in_the_allocation_period=True)
-				import pdb;pdb.set_trace()
 				if doc.status != "Rejected" and (doc.leave_balance < doc.total_leave_days or not doc.leave_balance):
 					if frappe.db.get_value("Leave Type", doc.leave_type, "allow_negative"):
 						frappe.msgprint(_("Note: There is not enough leave balance for Leave Type {0}")
