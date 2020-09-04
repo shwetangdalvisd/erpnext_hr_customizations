@@ -12,9 +12,15 @@ And now u are ready to use the ERP SoftwareIf running in browser show maintenanc
   bench --site site-name set-maintenance-mode offPS:This app was designed to get the following functionalities sorted
  
   1.Auto cancellation of leaves at month end.
+  
   2.Allowing future attendance .
+  
   3.Leave allocation on Granting and at the start of the month.
+  
   4.Changing the leave allocation procedure to eliminate rounding and accept fractional values.
+  
   5.Restricting the back dated leave applications upto 2 days.
+  
   6.Restricting the user to approve / reject the leave applications applied.
+  
   7.Custom Report which could be searched as "Report Monthly Attendance sheet STS"
