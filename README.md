@@ -4,12 +4,15 @@ This application requires Frappe & ERPnext to be installed as this application i
 
 subject to changeGet the customizations done as per the changes needed for STS's HR
 	
-  bench get-app hr_customizations https://github.com/shwetangdalvisd/erpnext_hr_customizationsTo install the new app
-    bench --site [site-name] install-app hr_customizations	bench start
+  bench get-app hr_customizations https://github.com/shwetangdalvisd/erpnext_hr_customizations
+  To install the new app
+    bench --site [site-name] install-app hr_customizations	
+    bench start
 
 And now u are ready to use the ERP SoftwareIf running in browser show maintenance page ,please run the following command.
 	
-  bench --site site-name set-maintenance-mode offPS:This app was designed to get the following functionalities sorted
+  bench --site site-name set-maintenance-mode off
+  PS:This app was designed to get the following functionalities sorted
  
   1.Auto cancellation of leaves at month end.
   
