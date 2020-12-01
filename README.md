@@ -6,6 +6,8 @@ Note : All the followig commands should be executed in /frappe-bench/ Directory
   Open Another Terminal simultaneously and Navigate to /frappe-bench/:
   - bench update
   - bench migrate
+  
+  
   (If everything goes well you can close this terminal)
   Restore the Database Backup of HR.Link of Documentaiton of Backup and Restoration : https://docs.google.com/document/d/1uHltlPyxnZTcYNOp2zwM_YSabbuwcUVJiGGzSK3fLng/edit
   You can get Backup files here - https://drive.google.com/drive/folders/1o-dtDrft8hytGfh5tA4mF062ZqCEChvo?usp=sharing
