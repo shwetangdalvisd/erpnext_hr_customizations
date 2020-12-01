@@ -1,6 +1,18 @@
 This application requires Frappe & ERPnext to be installed as this application is made to modify and some functionalities.If HR use needs to be restored ,please run the following command
-	
-  bench switch-to-version version-13-beta
+Note : All the followig commands should be executed in /frappe-bench/ Directory
+
+  - bench switch-to-branch version-13-beta frappe erpnext --upgrade
+  - bench start
+  Open Another Terminal simultaneously and Navigate to /frappe-bench/:
+  - bench update
+  - bench migrate
+  (If everything goes well you can close this terminal)
+  Restore the Database Backup of HR.Link of Documentaiton of Backup and Restoration : https://docs.google.com/document/d/1uHltlPyxnZTcYNOp2zwM_YSabbuwcUVJiGGzSK3fLng/edit
+  You can get Backup files here - https://drive.google.com/drive/folders/1o-dtDrft8hytGfh5tA4mF062ZqCEChvo?usp=sharing
+  
+  Now,also install s3_backup app with ERPnext by following command(As DB contain s3-backup data):
+  - bench get-app s3_backup https://github.com/ccfiel/s3_backup.git
+  -bench --site install-app s3_backup
 
 subject to changeGet the customizations done as per the changes needed for STS's HR
 	
