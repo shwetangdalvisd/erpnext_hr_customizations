@@ -14,7 +14,7 @@ Note : All the followig commands should be executed in /frappe-bench/ Directory
   
   Now,also install s3_backup app with ERPnext by following command(As DB contain s3-backup data):
   - bench get-app s3_backup https://github.com/ccfiel/s3_backup.git
-  -bench --site install-app s3_backup
+  - bench --site install-app s3_backup
 
 subject to changeGet the customizations done as per the changes needed for STS's HR
 	
