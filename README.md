@@ -22,8 +22,8 @@ subject to changeGet the customizations done as per the changes needed for STS's
   
   
   To install the new app
-    - bench --site [site-name] install-app hr_customizations	
-    - bench start
+  - bench --site [site-name] install-app hr_customizations	
+  - bench start
 
 And now u are ready to use the ERP SoftwareIf running in browser show maintenance page ,please run the following command.
 	
